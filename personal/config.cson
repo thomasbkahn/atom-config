@@ -1,0 +1,77 @@
+"*":
+  "Sublime-Style-Column-Selection": {}
+  Zen:
+    gutter: true
+    width: 90
+  "atom-beautify":
+    _analyticsUserId: "5bb57c8b-bdd6-4365-9dce-53b317f3b083"
+  "autocomplete-plus": {}
+  "autocomplete-python": {}
+  core:
+    disabledPackages: [
+      "highlight-line"
+      "wrap-guide"
+      "linter-pylint"
+      "jshint"
+    ]
+    themes: [
+      "one-dark-ui"
+      "earthsung-by-jackson-syntax"
+    ]
+  editor:
+    fontFamily: "Monaco"
+    invisibles: {}
+    scrollPastEnd: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "4332cb72-a978-d988-d70f-be4a3af6ce0e"
+  "file-icons":
+    coloured: false
+  "highlight-line": {}
+  latex: {}
+  linter:
+    showErrorTabProject: false
+    statusIconScope: "File"
+  "linter-flake8":
+    executablePath: "/anaconda/bin/flake8"
+    flakeErrors: true
+    ignoreErrorCodes: [
+      "E221"
+      "E251"
+    ]
+    pep8ErrorsToWarnings: true
+  "linter-pep8": {}
+  "markdown-preview-plus": {}
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+    scrollAnimation: true
+  "one-dark-ui": {}
+  "spell-check":
+    grammars: [
+      "text.tex.latex"
+      "text.plain.null-grammar"
+      "source.gfm"
+    ]
+  welcome:
+    showOnStartup: false
+".latex.tex.text":
+  editor:
+    tabLength: 2
+".plain.text":
+  editor:
+    showIndentGuide: false
+    softWrap: true
+"linter-flake8":
+  executableDir: "anaconda/bin/"
